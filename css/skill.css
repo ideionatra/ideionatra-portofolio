@@ -46,14 +46,15 @@
 .project-card{
     max-width: 26%;
     width:100%;
-    height: fit-content;
+    height: auto;
     border-radius: 8px;
     overflow: hidden;
     position: relative;
     box-shadow: 0 2px 20px #565656;
+    filter: grayscale(10);
     transition: all 0.2s ease-in-out;
 }
-.project-card:hover .project-image img {
+.project-card:hover  {
     filter: grayscale(0);
 }
 .project-image{
@@ -63,7 +64,6 @@
 .project-image img {
     width: 100%;
     height: auto;
-    filter: grayscale(10);
     transition: all 0.2s ease-in-out;
     aspect-ratio: 16/9;
     object-fit: cover;
@@ -77,4 +77,35 @@
 }
 .project-title{
     font-size: 1.3rem;
+}
+.green{
+    color: #16A34A;
+}
+.yellow{
+    color: #F87617;
+}
+.pink{
+    color: #DB2877;
+}
+.link-web{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    text-decoration: none;
+    color: #333;
+}
+.icon-web{
+    width: 1.3rem;
+}
+.see-more{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+
+}
+.arrow-right{
+    width: 1rem;
+}
+.arrow-right:last-child{
+    width: .8rem;
 }
