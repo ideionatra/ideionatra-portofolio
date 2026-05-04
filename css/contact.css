@@ -163,19 +163,15 @@
     }
     .contact-avatar img{
         width: 9rem;
-        filter: grayscale(1);
+        filter: grayscale(0);
         rotate: -10deg;
         transition: all .3s ease-in-out;
+        animation-name: shake;
         
         animation-duration: 1s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
     }
-    .contact-avatar img:hover{
-        animation-name: shake;
-        filter: grayscale(0);
-    }
-    
     
     .contact-docs-photo{
         display: flex;
