@@ -109,3 +109,120 @@
 .arrow-right:last-child{
     width: .8rem;
 }
+
+
+@media (max-width: 480px){
+    .skill-section{
+        height: fit-content;
+        padding: 3rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-title{
+        font-size: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .skill-section-title{
+        font-size: 1.5rem;
+        
+    }
+    .skill-image-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        max-width: 80%;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0;
+    }
+    .skill-image{
+        width: 40px;
+        height: fit-content;
+        filter: grayscale(10);
+        transition: all 0.2s ease-in-out ;
+    }
+    .skill-image:hover{
+        filter: grayscale(0);
+    }
+    .pb-2{
+        padding-bottom: 2rem;
+    }
+
+    .skill-project-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-card{
+        max-width: 80%;
+        width:100%;
+        height: auto;
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 2px 20px #565656;
+        filter: grayscale(10);
+        transition: all 0.2s ease-in-out;
+    }
+    .project-card:hover  {
+        filter: grayscale(0);
+    }
+    .project-image{
+        width: 100%;
+        height: fit-content;
+    }
+    .project-image img {
+        width: 100%;
+        height: auto;
+        transition: all 0.2s ease-in-out;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        object-position: top;
+    }
+    .project-text{
+        padding: 0.8rem 1.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: .6rem;
+    }
+    .project-title{
+        font-size: 1.3rem;
+    }
+    .green{
+        color: #16A34A;
+    }
+    .yellow{
+        color: #F87617;
+    }
+    .pink{
+        color: #DB2877;
+    }
+    .link-web{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        text-decoration: none;
+        color: #333;
+    }
+    .icon-web{
+        width: 1.3rem;
+    }
+    .see-more{
+        display: flex;
+        align-items: center;
+        gap: .2rem;
+
+    }
+    .arrow-right{
+        width: 1rem;
+    }
+    .arrow-right:last-child{
+        width: .8rem;
+    }
+}

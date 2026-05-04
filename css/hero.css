@@ -72,3 +72,79 @@
     margin-bottom: -1rem ;
     margin-left: -12rem;
 }
+
+@media (max-width: 480px){
+    .hero-section{
+        display: flex;
+        height: 100dvh;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .hero-flex{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0rem;
+    }
+
+    .hero-left{
+        width: 80%;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        color: #333;
+    }
+
+    .hero-its-me{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .hero-name{
+        font-size: 2.5rem;
+        font-weight: 800;
+        white-space: none;
+        overflow: hidden;
+    }
+
+    .hero-desc{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .hero-left-2{
+        position: absolute;
+        bottom: 15%;
+    }
+
+    .hero-read-more{
+        padding: .7rem 1rem;
+        border: 1px solid #333;
+        color: #333;
+        background-color: #fff;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all ease-in-out 0.35s;
+        display: none;
+    }
+    .hero-read-more:hover{
+        border: 1px solid #333;
+        color: #fff;
+        background-color: #333;
+    }
+
+    .hero-right{
+        display: flex;
+        height: 100%;
+        justify-content: left;
+    }
+    .hero-image{
+        width:auto;
+        height: 70dvh;
+        bottom: 0;
+        right: 0;
+        margin-bottom: -10rem ;
+        margin-left: -12rem;
+    }
+}
